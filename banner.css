@@ -1,0 +1,291 @@
+*{
+	
+	margin: =0;
+	padding: =0;
+	border: =0;
+}
+
+section
+{
+	display: flex;
+	width:100vw;
+	overflow: hidden;
+	/*justify-content: center;*/
+	font-weight: bold;
+	font-family:cursive;
+	margin: 0;
+}
+
+.coverpage
+{
+	background-image: url(image/main.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+.text-bg {
+	background-image: url(image/geometric-leaves.png);
+	opacity: 0.8;
+	position: relative;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 80vh;
+	width: 100vw;
+	
+	margin: 0;
+	
+	align-content: center;
+
+}
+.text {
+	
+	text-align: center;
+	position: absolute;
+	display: flex;
+	display: inline;
+	left: 50%;
+	top:50%;
+	text-align: justify;
+	transform: translateX(-50%) translateY(-50%);
+	line-height: 2.5rem;
+    color: #000000; 
+	margin: auto;
+	
+	/*left: 50%;
+	top: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);*/
+}
+/*p{
+	display: inline-block;
+	margin: 0 0.5rem;
+	animation: slideInLeft;
+	animation-duration: 5s;
+}*/
+.animate__animated.animate__slideInLeft
+{
+	--animate-duration: 5s;
+}
+
+.aboutpara
+{
+	position:absolute;
+    
+	left: 15%;
+	right:15%;
+	
+    /*-webkit-transform: translateY(0%) translateX(-50%);
+    -moz-transform: translateY(0%) translateX(-50%);
+    -ms-transform: translateY(0%) translateX(-50%);
+    -o-transform: translateY(0%) translateX(-50%);
+    transform: translateY(0%) translateX(-50%);*/
+    text-align: center;
+	justify-content: center;
+    /*z-index: 50;*/
+	line-height: 2rem;
+    color: #000000; 
+}
+
+.container{
+	background-size: cover;
+	position: relative;
+	background-attachment:scroll;
+	
+	height: 90vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+}
+.myCarousel{
+	
+	margin: 0;
+	position: absolute;
+	width: 100vw;
+}
+.carousel-section
+{
+	overflow: hidden;
+	margin: 0;
+	background-size: cover;
+}
+	/*height:50rem;
+	width: 100vw;
+	
+	
+}*/
+.corousel-img
+{
+	object-fit:cover;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+
+.wedding-content-invitation
+{
+	background-color:#cff0cc;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	
+}
+.wedding-content-cinematography
+{
+	background-color:#ffffff;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	background-attachment: fixed;
+}
+.wedding-content-theme
+{
+	background-color:#cff0cc;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	
+}
+.wedding-content-accessorization
+{
+	background-color:#ffffff;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	background-attachment: fixed;
+}
+.wedding-content-catering
+{
+	background-color:#cff0cc;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	
+}
+.wedding-content-transport
+{
+	background-color:#ffffff;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	background-attachment: fixed;
+}
+.wedding-content-entertainment
+{
+	background-color:#cff0cc;
+	height:80vh;
+	width: 100vw;
+	position: relative;
+	
+}
+
+
+.q-container {
+	
+position:relative;	
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+  @media screen and (max-width: 768px) {
+    .q-container {
+      padding: 0 2.2rem; } }
+  @media screen and (max-width: 540px) {
+    .q-container {
+      padding: 0 1.3rem; } }
+  @media screen and (max-width: 320px) {
+    .q-container {
+      padding: 0 1rem; } }
+
+.container-inner {
+  padding-left: 12rem;
+  padding-right: 12rem; }
+  @media screen and (max-width: 1024px) {
+    .container-inner {
+      padding-left: 8rem;
+      padding-right: 8rem; } }
+  @media screen and (max-width: 768px) {
+    .container-inner {
+      padding-left: 3rem;
+      padding-right: 3rem; } }
+  @media screen and (max-width: 540px) {
+    .container-inner {
+      padding-left: 1.3rem;
+      padding-right: 1.3rem; } }
+  @media screen and (max-width: 320px) {
+    .container-inner {
+      padding-left: 1rem;
+		padding-right: 1rem; }}
+
+
+
+.img-back
+{
+	
+	display: inline;
+	padding-top: 2rem;
+	left: 50%;
+	top:50%;
+	transform: translateX(60%) translateY(-50%);
+	height: 28rem;
+	width: 45rem;
+	position: absolute;
+	
+}
+.animate__animated.animate__fadeInUp
+{
+	--animate-duration: 5s;
+}
+.content-box-white{
+	
+	left: 50%;
+	top: 6rem;
+	transform: translateX(30%);
+	background-color: #ffffff;
+	width: 28rem;
+	height: 26rem;
+	max-height620rem;
+	z-index: 1;
+	position:absolute;
+	opacity: 0.9;
+	padding: 1rem;
+}
+.content-box-green{
+	
+	
+	left: 50%;
+	top: 6rem;
+	transform: translateX(30%);
+	background-color: #cff0cc;
+	width: 28rem;
+	height: 26rem;
+	max-height:20rem;
+	z-index: 1;
+	position:absolute;
+	opacity: 0.9;
+	padding: 1rem;
+}
+.content-box-white h3{
+	text-align: center;
+	color: crimson;
+	margin-bottom: 1rem;
+}
+.content-box-green h3{
+	text-align: center;
+	color: crimson;
+	margin-bottom: 1rem;
+}
+
+.content-box-text{
+	font: #000000;
+	text-align: center;
+	line-height: 2rem;
+	z-index: 2;
+	opacity: 1;
+	
+}
